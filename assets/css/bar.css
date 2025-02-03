@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border-radius: 20px;
+    color: gray;
+  
+  }
+  
+  body {
+    font-family: 'Work Sans', sans-serif;
+    background-color: #FEFEFE;
+  }
+  
+  /* wraper */
+  
+  .wrapper {
+  
+  }
+  
+  .container-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav {
+    padding: 10px 20px;
+    box-shadow: 1px 2px 10px 2px rgba(0,0,0,.1);
+    background-color: white;
+  }
+  
+  nav .brand a {
+    font-size: 1.4rem;
+    text-decoration: none;
+    font-weight: 550;
+  
+  }
+  
+  @media screen and (min-width: 1200px) {
+    .container-flex {
+     width: 100%;
+     max-width: 1024px;
+     margin: auto;
+     display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
