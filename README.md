@@ -1,1 +1,1 @@
-Signaturepad - Tanda Tangan digital berbasis web
+Signaturepad - Tanda Tangan Digital berbasis Web
